@@ -356,6 +356,91 @@ pl:
         one: '1 błąd uniemożliwił zachowanie tego %{resource}:'
         other: "%{count} błędy(-ów) uniemożliwiło zachowanie tego %{resource}:"
   spree:
+    require_faktura: Uzupełnij poniższe dane do faktury
+    log_in_to_continue: Zaloguj się, aby kupić
+    dont_have_account: Nie masz swojego konta?
+    save_and_continue: kontynuuj
+    subtotal: Suma
+    backordered_info: brak w magazynie
+    order_mailer:
+      subtotal: łącznie za produkty
+      total: Łącznie zapłacono
+      confirm_email:
+        worker_instructions: Potwierdzenie zamówienia
+        instructions: Oto potwierdzenie zamówienia
+        dear_worker: Szanowni Państwo
+        dear_customer: Szanowny kliencie!
+        order_summary: Szczegóły
+    shipping_rates:
+      display_price:
+        including_tax: Zawiera podatek VAT
+    address_action_popup:
+      delete_button: Usuń
+      delete_title: Zmień dane
+      delete_text: Usuń tekst
+    no_product_available:
+      opps: Oops
+    order:
+      success: Zamówienie przyjęte, sprawdź potwierdzenie platności w swojej skrzynce e-mail.
+    adjustment_labels:
+      tax_rates:
+        including_tax: Podatek Vat
+    availability: Dostępność
+    in_stock: W magazynie
+    tos: Regulamin
+    payment_type: Sposób płatności
+    checkout_page:
+      back_to_cart: Wróć do koszyka
+      header: Płatność
+      delivery_method: Opcja wysyłki
+    billing_address: Dane rozliczeniowe
+    address_book:
+      edit_shipping_address: Edytuj dane do wysyłki
+      other_address: Inny Adres
+      successfully_updated: Zaktualizowano pomyślnie
+    pdp:
+      checkout: Zamawiam i płacę
+      view_cart: sprawdź Koszyk
+    added_to_cart: Dodano do koszyka
+    add_new_address: Wpisz Nowy Adres
+    store_credit_name: Kredyt
+    nav_bar:
+      show_search: Show search
+      show_user_menu: Show user menu
+      show_menu: Show menu
+      close_menu: Close menu
+      my_account: Moj Konto
+      log_out: Wyloguj się
+    required_fields: wymagane pola
+    required: "*"
+    sign_up: Zarejestruj się
+    log_in: Zaloguj się
+    plp:
+      clear_all: wiczyść wszystko
+      done: potwierdź
+      filter_by: FILTRUJ
+      price: cena
+      no_results: Brak wyników
+      not_found_filters1: Nie znaleziono
+      not_found_filters2: wyników filtrowania
+      not_found_text1: Nie mogliśmy znaleźć wyników dla '%{keywords}'.
+      not_found_text2: Spróbuj ponownie.
+      results_for: liczba winików
+      sort_by: SORTUJ
+      default: DOMYŚLNY
+      newest_first: NAJNOWSZE
+      price_high_to_low: NAJDROŻSZE
+      price_low_to_high: NAJTAŃSZE
+    already_have_account: Masz już konto?
+    continue_as_guest: kontynuuj jako gość
+    cart_page:
+      title: Twój koszyk
+      checkout: zapłać
+      quantity: Ilość
+      product: produkt
+      add_promo_code: dodaj kod promocyjny
+      header: Twój koszyk zakupów
+      empty_info: Brak produktów
     abbreviation: Skrót
     accept: Akceptuj
     acceptance_errors: Błędy akceptacji
