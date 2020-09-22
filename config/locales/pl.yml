@@ -435,7 +435,7 @@ pl:
     continue_as_guest: kontynuuj jako gość
     cart_page:
       title: Twój koszyk
-      checkout: zapłać
+      checkout: DALEJ
       quantity: Ilość
       product: produkt
       add_promo_code: dodaj kod promocyjny
@@ -1345,7 +1345,7 @@ pl:
     store: Zachowaj
     street_address: Adres ulicy
     street_address_2: Adres ulicy (cd.)
-    subtotal: Suma częściowa
+    subtotal: ŁĄCZNA KWOTA
     subtract: Odejmij
     success:
     successfully_created: Utworzono %{resource}!
