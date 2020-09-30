@@ -356,6 +356,8 @@ pl:
         one: '1 błąd uniemożliwił zachowanie tego %{resource}:'
         other: "%{count} błędy(-ów) uniemożliwiło zachowanie tego %{resource}:"
   spree:
+    spree_reviews:
+      show_identifier: Pokaż identyfikator
     new_refund_reason: Nowy Powód zwrotu
     reimbursement_types: Typy zwrotów
     new_refund_reason: Nowy Powód zwrotu
