@@ -409,7 +409,7 @@ pl:
       show_user_menu: Show user menu
       show_menu: Show menu
       close_menu: Close menu
-      my_account: Moj Konto
+      my_account: Moje Konto
       log_out: Wyloguj się
     required_fields: wymagane pola
     required: "*"
