@@ -356,10 +356,41 @@ pl:
         one: '1 błąd uniemożliwił zachowanie tego %{resource}:'
         other: "%{count} błędy(-ów) uniemożliwiło zachowanie tego %{resource}:"
   spree:
+    new_refund_reason: Nowy Powód zwrotu
+    reimbursement_types: Typy zwrotów
+    new_refund_reason: Nowy Powód zwrotu
+    mutable: Odwracalny
+    return_authorization_reasons: Powody autoryzacji zwrotów
+    roles:  Role na stronie
+    new_role: Nowa Rola
+    refund_reasons: Powody zwrotów
+    new_store_credit_category: Nowa kategoria kredytów
+    store_credit_categories: Kategorie kredytów do wykorzystania
+    auto_capture: Automatyczne Wychwytywanie
+    new_country: Nowy Kraj
+    add_store: Dodaj Sklep
+    new_promotion_category: Nowa Kategoria Promocji
+    generate_code: Wygeneruj Kod
+    advertise: Reklamuj
+    internationalization: Umiędzynarodowienie
+    social: Media Społecznościowe
+    mail_from_address:  Mail wysyłany z adresu
+    basic_information: Podstawowe Informacje
+    seo_title: SEO Tytuł
+    variant_prices_search_placeholder: Variant Prices search
+    stores: Sklepy
+    preview_product: Podgląd produktu
+    track_inventory: Śledź stan magazynowy
+    image: Obraz
+    filter: filtr
+    sale_price: Cena promocyjna
+    discontinue_on: Niedostępne od
     require_faktura: Uzupełnij poniższe dane do faktury
     log_in_to_continue: Zaloguj się, aby kupić
     dont_have_account: Nie masz swojego konta?
     save_and_continue: kontynuuj
+    promotionable: Możliwość promocji
+    master_sku: Główne SKU
     subtotal: Suma
     backordered_info: brak w magazynie
     order_mailer:
@@ -504,6 +535,8 @@ pl:
         taxonomies: Taksonomie
         taxons: Taksony
         users: Użytkownicy
+        return_authorizations: Autoryzacje zwrotów
+        customer_returns: Zwroty od klientów
       user:
         account: Konto
         addresses: Adresy
@@ -718,7 +751,7 @@ pl:
         no_user_or_email_specified:
         no_user_specified:
         not_first_order:
-    email: E-mail
+    email: Adresy Email
     empty: Pusty
     empty_cart: Pusty koszyk
     enable_mail_delivery: Włącz dostawę pocztą
@@ -777,7 +810,7 @@ pl:
     gateway_config_unavailable: Brak bramy dla środowiska
     gateway_error: Błąd bramy
     general: Ogólne
-    general_settings: Ustawienia ogólna
+    general_settings: Ustawienia ogólne
     google_analytics: Analityka Google
     google_analytics_id: Identyfikator analityki
     guest_checkout: Złożenie zamówienia jako gość
@@ -791,6 +824,7 @@ pl:
       language: Język
       localization_settings: Ustawienia regionalne
       this_file_language: Polski (PL)
+      locales_displayed_on_frontend_select_box: Lokalizacje wyświetlane na frontendzie, wybierz pole wyboru
     icon: Ikona
     identifier:
     image: Obraz
@@ -1084,13 +1118,13 @@ pl:
         description: Tworzy poprawkę kredytu promocyjnego w zamówieniu
         name: Utwórz poprawkę
       create_item_adjustments:
-        description:
+        description: Opis
         name:
       create_line_items:
         description: Zapełnia koszyk określoną ilością odmiany
         name: Utwórz pozycje linii
       free_shipping:
-        description:
+        description: Opis
         name: Darmowa przesyłka
     promotion_actions: Działania promocyjne
     promotion_form:
@@ -1208,7 +1242,6 @@ pl:
     rma_credit: Kredyt RMA
     rma_number: Numer RMA
     rma_value: Wartość RMA
-    roles: Role
     rules: Reguły
     safe: Bezpieczne
     sales_total: Sprzedaż razem
