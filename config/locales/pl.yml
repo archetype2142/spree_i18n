@@ -210,7 +210,7 @@ pl:
         other: Karty kredytowe
       spree/customer_return:
         one: Zwrot klienta
-        other: Zworoty klienta
+        other: Zwroty klienta
       spree/inventory_unit:
         one: Jednostka magazynowa
         other: Jednostki magazynowe
@@ -294,11 +294,11 @@ pl:
         one: Stawka podatku
         other: Stawki podatku
       spree/taxon:
-        one: Takson
-        other: Taksony
+        one: Podkategoria
+        other: Podkategorie
       spree/taxonomy:
-        one: Taksonomia
-        other: Taksonomie
+        one: Kategoria
+        other: Kategorie
       spree/tracker:
       spree/user:
         one: Użytkownik
@@ -372,13 +372,37 @@ pl:
     new_country: Nowy Kraj
     add_store: Dodaj Sklep
     new_promotion_category: Nowa Kategoria Promocji
-    generate_code: Wygeneruj Kod
+    generate_code: Wygeneruj kod
     advertise: Reklamuj
     internationalization: Umiędzynarodowienie
     social: Media Społecznościowe
     mail_from_address:  Mail wysyłany z adresu
     basic_information: Podstawowe Informacje
     seo_title: SEO Tytuł
+    authorized: Zautoryzowane
+    tax_included: Wartość podatku VAT
+    canceled: Anulowane
+    channel: Kanał
+    customer_returns: Zwroty klientów
+    number: Numer
+    line_item_adjustments: Podatek od produktów
+    shipment_adjustments: Podatek od wysyłki
+    summary: Podsumowanie
+    tax_included: Suma podatku VAT
+    order_line_items: Pozycje zamówienia
+    total_price: Wartość
+    firstname: Imię
+    lastname: Nazwisko
+    adjustable: Do poprawy
+    transaction_id: ID Transakcji
+    promotion_category: Kategoria promocji
+    limit_usage_to: Limit wykorzystania
+    previous_state_missing: Brak poprzedniego stanu
+    available: Dostępny
+    starting_at: Data początkowa
+    ending_at: Data końcowa
+    starting_from: Data początkowa
+    ends_at: Data końcowa
     variant_prices_search_placeholder: Variant Prices search
     stores: Sklepy
     preview_product: Podgląd produktu
@@ -417,7 +441,7 @@ pl:
       success: Zamówienie przyjęte, sprawdź potwierdzenie platności w swojej skrzynce e-mail.
     adjustment_labels:
       tax_rates:
-        including_tax: Podatek Vat
+        including_tax: Podatek VAT
     availability: Dostępność
     in_stock: W magazynie
     tos: Regulamin
@@ -492,7 +516,7 @@ pl:
       listing: Wypisuje
       new: Nowy
       refund: Zwróć
-      save: Zachowaj
+      save: Zapisz
       update: Uaktualnij
     activate: Uaktywnij
     active: Aktywny
@@ -502,7 +526,7 @@ pl:
     add_coupon_code: Wprowadź kod promocyjny
     add_new_header: Dodaj nowy nagłówek
     add_new_style: Dodaj nowy styl
-    add_one: Dodaj jeden
+    add_one: Dodaj
     add_option_value: Dodaj wartość opcji
     add_product: Dodaj produkt
     add_product_properties: Dodaj właściwości produktu
@@ -534,8 +558,8 @@ pl:
         properties: Właściwości
         prototypes: Prototypy
         reports: Raporty
-        taxonomies: Taksonomie
-        taxons: Taksony
+        taxonomies: Kategorie
+        taxons: Podkategorie
         users: Użytkownicy
         return_authorizations: Autoryzacje zwrotów
         customer_returns: Zwroty od klientów
@@ -716,6 +740,7 @@ pl:
       first_day: 0
       format: "%Y/%m/%d"
       js_format: yy/mm/dd
+      js_date_time: JS date time
     date_range: Zakres dat
     default: Domyślny
     default_refund_amount:
@@ -763,7 +788,7 @@ pl:
     error: błąd
     errors:
       messages:
-        could_not_create_taxon: Nie można utworzyć taksonu
+        could_not_create_taxon: Nie można utworzyć podkategorii
         no_payment_methods_available: Dla tego środowiska nie skonfigurowano żadnych metod płatności
         no_shipping_methods_available: Dla wybranej lokalizacji brak dostępnych metod wysyłki, zmień adres i spróbuj ponownie.
     errors_prohibited_this_record_from_being_saved:
@@ -797,7 +822,7 @@ pl:
     filter_results: Wyniki filtra
     finalize: Zakończ
     finalized:
-    find_a_taxon: Znajdź takson
+    find_a_taxon: Znajdź podkategorię
     first_item: Koszt pierwszej sztuki
     first_name: Imię
     first_name_begins_with: Imię zaczyna się na
@@ -948,8 +973,8 @@ pl:
     new_stock_transfer: Nowe przeniesienie magazynowe
     new_tax_category: Nowa kategoria podatkowa
     new_tax_rate: Nowa stawka podatkowa
-    new_taxon: Nowy takson
-    new_taxonomy: Nowa taksonomia
+    new_taxon: Nowa podkategoria
+    new_taxonomy: Nowa kategoria
     new_tracker: Nowy tropiciel
     new_user: Nowy użytkownik
     new_variant: Nowa odmiana
@@ -959,7 +984,7 @@ pl:
     no_payment_found:
     no_pending_payments: Brak zawieszonych płatności
     no_products_found: Nie znaleziono produktów
-    no_resource_found: Nie znaleziono %{resource}
+    no_resource_found: Nie znaleziono
     no_results: Brak wyników
     no_returns_found:
     no_rules_added: Nie dodano reguł
@@ -972,7 +997,7 @@ pl:
     not: nie
     not_available: Niedostępne
     not_enough_stock: Zbyt mała ilość towaru w lokalizacji źródłowej, by dokończyć to przeniesienie.
-    not_found: Nie znaleziono %{resource}
+    not_found: Nie znaleziono
     note:
     notice_messages:
       product_cloned: Produkt został powielony
@@ -1148,7 +1173,7 @@ pl:
         description:
         name:
       option_value:
-        description:
+        description: Opis
         name:
       product:
         description: Zamówienie zawiera określone produkty
@@ -1162,7 +1187,7 @@ pl:
       user_logged_in:
         description: Dostępne tylko dla zalogowanych użytkowników
         name: Zalogowany użytkownik
-    promotion_uses: Użycia promocji
+    promotion_uses: Wykorzystania promocji
     promotionable:
     promotions: Promocje
     propagate_all_variants:
@@ -1249,7 +1274,7 @@ pl:
     sales_total: Sprzedaż razem
     sales_total_description: Sprzedaż razem dla wszystkich zamówień
     sales_totals: Suma sprzedaży
-    save_and_continue: Zachowaj i kontynuuj
+    save_and_continue: Zapisz i kontynuuj
     save_my_address:
     say_no: Nie
     say_yes: Tak
@@ -1330,37 +1355,38 @@ pl:
     state: Województwo
     state_based: Stan oparty na
     state_machine_states:
-      accepted:
-      address:
-      authorized:
-      awaiting:
-      awaiting_return:
-      backordered:
-      canceled:
-      cart:
-      checkout:
-      closed:
-      complete:
-      completed:
-      confirm:
-      delivery:
-      errored:
-      failed:
-      given_to_customer:
-      invalid:
-      manual_intervention_required:
-      on_hand:
-      open:
-      order:
-      payment:
-      pending:
-      processing:
-      ready:
-      reimbursed:
-      resumed:
-      returned:
-      shipped:
-      void:
+      accepted: Potwierdzone
+      address: Adres
+      authorized: Zautoryzowane
+      awaiting: Oczekujące
+      awaiting_return: Oczekujące do zwrotu
+      backordered: Zaległe
+      canceled: Anulowane
+      cart: Koszyk
+      checkout: Płatność
+      closed: Zamknięte
+      complete: Zakończ
+      completed: Zakończone
+      confirm: Potwierdź
+      delivery: Wysyłka
+      errored: Nieprawidłowy
+      failed: Nieudany
+      given_to_customer: Dostarczony klientowi
+      invalid: Nieaktualny
+      manual_intervention_required: Wymagana interwencja
+      on_hand: Na stanie
+      open: Otwarty
+      order: Zamówienie
+      payment: Płatność
+      shipment: Dostawa
+      pending: W trakcie
+      processing: Przetwarzany
+      ready: Gotowy
+      reimbursed: Zwrócona płatność
+      resumed: Wznowiony
+      returned: Zwrócony
+      shipped: Dostarczony
+      void: Unieważnij
     states: Stany
     states_required: Wymagane stany
     status: Status
@@ -1377,10 +1403,10 @@ pl:
     stock_transfer: Przeniesienie magazynu
     stock_transfers: Przeniesienia magazynu
     stop: Zatrzymaj
-    store: Zachowaj
+    store: Sklep
     street_address: Adres ulicy
     street_address_2: Adres ulicy (cd.)
-    subtotal: ŁĄCZNA KWOTA
+    subtotal: Suma netto
     subtract: Odejmij
     success:
     successfully_created: Utworzono %{resource}!
@@ -1396,20 +1422,20 @@ pl:
     tax_included:
     tax_rate_amount_explanation: By ułatwić wyliczenia stawki podatku podane są w notacji dziesiętnej (np. jeśli stawka wynosi 5% wprowadź 0.05)
     tax_rates: Stawki podatku
-    taxon: Takson
-    taxon_edit: Edycja taksona
-    taxon_placeholder: Dodaj takson
+    taxon: Podkategoria
+    taxon_edit: Edycja podkategorii
+    taxon_placeholder: Dodaj podkategorię
     taxon_rule:
       choose_taxons:
       label:
       match_all:
       match_any:
-    taxonomies: Taksonomie
-    taxonomy: Taksonomia
-    taxonomy_edit: Edycja taksonomii
+    taxonomies: Kategorie
+    taxonomy: Kategoria
+    taxonomy_edit: Edycja kategorii
     taxonomy_tree_error: "Żądana zmiana nie została zaakceptowana i drzewo wróciło do poprzedniego stanu, spróbuj ponownie."
     taxonomy_tree_instruction: "* Menu dla dodawania, usuwania lub sortowania dziecka dostępne jest pod prawym przyciskiem myszy."
-    taxons: Taksony
+    taxons: Podkategorie
     test: Test
     test_mailer:
       test_email:
@@ -1427,7 +1453,7 @@ pl:
     tiers:
     time: Czas
     to_add_variants_you_must_first_define: Aby dodać odmiany musisz najpierw zdefiniować
-    total: razem
+    total: Suma brutto zamówienia
     total_per_item:
     total_pre_tax_refund:
     total_price:
