@@ -378,7 +378,6 @@ pl:
     mail_from_address:  Mail wysyłany z adresu
     basic_information: Podstawowe Informacje
     seo_title: SEO Tytuł
-    authorized: Zautoryzowane
     footer_info: Informacje w stopce
     supported_currencies: Wspierane waluty
     customer_support_email: Adres obsługi klienta
@@ -388,24 +387,14 @@ pl:
     address: Adres
     contact_email: Email kontaktowy
     contact_phone: Telefon kontaktowy
-    tax_included: Wartość podatku VAT
     canceled: Anulowane
     channel: Kanał
-    customer_returns: Zwroty klientów
     number: Numer
-    line_item_adjustments: Podatek od produktów
-    shipment_adjustments: Podatek od wysyłki
-    summary: Podsumowanie
-    tax_included: Suma podatku VAT
     order_line_items: Pozycje zamówienia
-    total_price: Wartość
     firstname: Imię
     lastname: Nazwisko
-    adjustable: Do poprawy
-    transaction_id: ID Transakcji
     promotion_category: Kategoria promocji
     limit_usage_to: Limit wykorzystania
-    previous_state_missing: Brak poprzedniego stanu
     available: Dostępny
     starting_at: Data początkowa
     ending_at: Data końcowa
@@ -548,7 +537,7 @@ pl:
     additional_item: Dodatkowy koszt jednostki
     address1: Adres
     address2: Adres (cd.)
-    adjustable:
+    adjustable: Do poprawy
     adjustment: Poprawka
     adjustment_amount: Ilość
     adjustment_successfully_closed: Zamknięto poprawkę!
@@ -614,7 +603,7 @@ pl:
     associated_adjustment_closed: Powiązana poprawka jest zamknięta i nie zostanie przeliczona. Czy chcesz ją otworzyć?
     at_symbol: '@'
     authorization_failure: Błąd autoryzacji
-    authorized:
+    authorized: Zautoryzowane
     auto_capture:
     available_on: Dostępne od
     average_order_value: Średnia wartość zamówienia
@@ -730,7 +719,7 @@ pl:
     customer_details: Dane klienta
     customer_details_updated: Uaktualniono dane klienta
     customer_return:
-    customer_returns:
+    customer_returns: Zwroty klientów
     customer_search: Przeszukaj bazę klientów
     cut: Wytnij
     cvv_response:
@@ -912,7 +901,7 @@ pl:
     last_name_begins_with: Nazwisko zaczyna się na
     learn_more: Dowiedz się więcej
     lifetime_stats: Statystyki ogólne
-    line_item_adjustments:
+    line_item_adjustments: Podatek od produktów
     list: Lista
     loading: "Ładuję"
     locale_changed: Zmieniono ustawienia regionalne
@@ -1128,7 +1117,7 @@ pl:
     preferred_reimbursement_type:
     presentation: Prezentacja
     previous: Poprzedni
-    previous_state_missing:
+    previous_state_missing: Brak poprzedniego stanu
     price: Cena
     price_range: Zakres cen
     price_sack: Worek cenowy
@@ -1310,7 +1299,7 @@ pl:
     ship_address: Adres wysyłki
     ship_total: Wartość wysyłki
     shipment: Wysyłka
-    shipment_adjustments:
+    shipment_adjustments: Podatek od wysyłki
     shipment_details:
     shipment_mailer:
       shipped_email:
@@ -1430,7 +1419,7 @@ pl:
     tax_categories: Kategorie podatkowe
     tax_category: Kategoria podatkowa
     tax_code: Kod podatkowy
-    tax_included:
+    tax_included: Wartość podatku VAT
     tax_rate_amount_explanation: By ułatwić wyliczenia stawki podatku podane są w notacji dziesiętnej (np. jeśli stawka wynosi 5% wprowadź 0.05)
     tax_rates: Stawki podatku
     taxon: Podkategoria
@@ -1467,14 +1456,14 @@ pl:
     total: Suma brutto zamówienia
     total_per_item:
     total_pre_tax_refund:
-    total_price:
+    total_price: Wartość
     total_sales: Wartość zamówień
     track_inventory:
     tracking: "Śledzenie przesyłki"
     tracking_number: Numer przesyłki
     tracking_url: URL do śledzenia przesyłki
     tracking_url_placeholder: e.g. http://quickship.com/package?num=:tracking
-    transaction_id:
+    transaction_id: ID Transakcji
     transfer_from_location: Przeniesienie z
     transfer_stock: Przenieś magazyn
     transfer_to_location: Przenieś do
