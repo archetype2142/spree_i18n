@@ -739,9 +739,10 @@ pl:
     date_completed: Data uaktualniona
     date_picker:
       first_day: 0
-      format: "%Y/%m/%d"
-      js_format: yy/mm/dd
-      js_date_time: JS date time
+      format: ! '%Y/%m/%d'
+      hourAriaLabel: 'Hour'
+      js_format: Y/m/d
+      js_date_time: Y/m/d - H:i
     date_range: Zakres dat
     default: Domyślny
     default_refund_amount:
