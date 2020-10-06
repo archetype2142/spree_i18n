@@ -405,9 +405,9 @@ pl:
     ends_at: Data końcowa
     currencies: Waluty
     variant_prices_search_placeholder: Variant Prices search
+    prices: Ceny
     stores: Sklepy
     preview_product: Podgląd produktu
-    track_inventory: Śledź stan magazynowy
     image: Obraz
     filter: filtr
     sale_price: Cena promocyjna
@@ -416,7 +416,6 @@ pl:
     log_in_to_continue: Zaloguj się, aby kupić
     dont_have_account: Nie masz swojego konta?
     save_and_continue: kontynuuj
-    promotionable: Możliwość promocji
     master_sku: Główne SKU
     subtotal: Suma
     backordered_info: brak w magazynie
@@ -1190,7 +1189,7 @@ pl:
         description: Dostępne tylko dla zalogowanych użytkowników
         name: Zalogowany użytkownik
     promotion_uses: Wykorzystania promocji
-    promotionable:
+    promotionable: Możliwość promocji
     promotions: Promocje
     propagate_all_variants:
     properties: Właściwości
@@ -1288,6 +1287,7 @@ pl:
     secure_connection_type: Typ bezpiecznego połączenia
     security_settings: Ustawienia bezpieczeństwa
     select: Wybierz
+    select_a_date: Wybierz datę
     select_a_return_authorization_reason:
     select_a_stock_location:
     select_from_prototype: Wybierz z prototypu
@@ -1461,7 +1461,7 @@ pl:
     total_pre_tax_refund:
     total_price: Wartość
     total_sales: Wartość zamówień
-    track_inventory:
+    track_inventory: Śledź stan magazynowy
     tracking: "Śledzenie przesyłki"
     tracking_number: Numer przesyłki
     tracking_url: URL do śledzenia przesyłki
