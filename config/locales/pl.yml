@@ -780,7 +780,7 @@ pl:
         no_user_or_email_specified:
         no_user_specified:
         not_first_order:
-    email: Adresy email
+    email: Adres email
     empty: Pusty
     empty_cart: Pusty koszyk
     enable_mail_delivery: Włącz dostawę pocztą
