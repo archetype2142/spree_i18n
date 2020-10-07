@@ -1004,10 +1004,10 @@ pl:
     notice_messages:
       product_cloned: Produkt został powielony
       product_deleted: Produkt został usunięty
-      product_not_cloned: Nie można było powielić produktu
-      product_not_deleted: Nie można było usunąć produktu
+      product_not_cloned: "Nie można było powielić produktu. Powód: %{error}"
+      product_not_deleted: "Nie można było usunąć produktu. Powód: %{error}"
       variant_deleted: Odmiana została usunięta
-      variant_not_deleted: Nie można było usunąć odmiany
+      variant_not_deleted: "Nie można było usunąć odmiany. Powód: %{error}"
     num_orders: Ilość zamówień
     on_hand: na stanie
     open: Otwórz
@@ -1191,6 +1191,8 @@ pl:
         name: Zalogowany użytkownik
     promotion_uses: Wykorzystania promocji
     promotionable: Możliwość promocji
+    promotion_cloned: Promocja została sklonowana
+    promotion_not_cloned: "Nie można było sklonować promocji. Powód: %{error}"
     promotions: Promocje
     propagate_all_variants:
     properties: Właściwości
