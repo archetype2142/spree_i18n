@@ -467,7 +467,9 @@ pl:
       show_menu: Show menu
       close_menu: Close menu
       my_account: Moje Konto
+      log_in: Zaloguj się
       log_out: Wyloguj się
+      sign_up: Zarejestruj się
     required_fields: wymagane pola
     required: "*"
     sign_up: Zarejestruj się
