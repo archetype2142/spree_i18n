@@ -84,6 +84,7 @@ pl:
         on_hand: W magazynie
         shipping_category: Kategoria wysyłki
         tax_category: Kategoria podatku
+        less_than: Mniej niż
       spree/promotion:
         advertise: Zareklamuj
         code: Kod
@@ -321,6 +322,9 @@ pl:
       timeout: Twoja sesja wygasła, zaloguj się ponownie.
       unauthenticated: Aby kontynuować, musisz się zalogować.
       unconfirmed: Przed kontynuacją musisz potwierdzić swoje konto.
+      spree_user:
+        already_authenticated: Już zalogowano
+        already_signed_out: Już wylogowano
     mailer:
       confirmation_instructions:
         subject: Instrukcje potwierdzenia
@@ -335,26 +339,38 @@ pl:
       send_instructions: Za kilka minut otrzymasz wiadomość z instrukcjami, jak odblokować Twoje konto.
       unlocked: Twoje konto zostało odblokowane. Zostałeś zalogowany.
     user_passwords:
+      spree_user:
+        send_instructions: Za kilka minut otrzymasz wiadomość z instrukcjami, jak ponownie ustawić hasło.
       user:
         cannot_be_blank: Hasło nie może być puste.
         send_instructions: Za kilka minut otrzymasz wiadomość z instrukcjami, jak ponownie ustawić Twoje hasło.
         updated: Hasło zostało zmienione. Zostałeś zalogowany.
+        send_instructions: Za kilka minut otrzymasz wiadomość z instrukcjami, jak ponownie ustawić Twoje hasło.
     user_registrations:
       destroyed: Do widzenia! Twoje konto zostało usunięte. Mamy nadzieję, że wrócisz do nas...
       inactive_signed_up: Założyłeś konto, nie mogliśmy jednak Cię zalogować ponieważ Twoje konto jest %{reason}.
-      signed_up: Witamy! Zostałeś zalogowany.
+      signed_up: Witamy! Zalogowano pomyślnie.
       updated: Uaktualniłeś swoje konto.
     user_sessions:
-      signed_in: Zostałeś zalogowany.
-      signed_out: Zostałeś wylogowany.
+      signed_in: Zalogowano pomyślnie
+      signed_out: Wylogowano pomyślnie
   errors:
     messages:
       already_confirmed: już zostało potwierdzone
       not_found: nie znaleziono
       not_locked: nie zostało zablokowane
+      email_blank: Email nie może być pusty
+      email_accepted: Email musi zostać zaakceptowany
+      email_invalid: Email jest nieprawidłowy
+      email_required: Email musi istnieć
+      email_taken: Email został już zajęty
+      password_blank: Hasło nie może być puste
+      password_invalid: Hasło jest nieprawidłowe
+      password_required: Hasło musi istnieć
       not_saved:
         one: '1 błąd uniemożliwił zachowanie tego %{resource}:'
         other: "%{count} błędy(-ów) uniemożliwiło zachowanie tego %{resource}:"
+  checkout_allowed_errors:
   spree:
     store_credit_category: Kategorie kredytów
     payment_method: Metoda płatności
@@ -419,6 +435,23 @@ pl:
     master_sku: Główne SKU
     subtotal: Suma
     backordered_info: brak w magazynie
+    user_mailer:
+      reset_password_instructions:
+        welcome: "Witaj %{email}!"
+        instructions_1: Otrzymaliśmy prośbę o zmianę hasła do Twojego konta w sklepie %{store_name}
+        instructions_2: Kliknij przycisk poniżej aby zresetować hasło
+        instructions_3: Jeśli nie wnioskowałeś o zmianę hasła zignoruj ten e-mail lub skontaktuj się z nami
+        button: Zresetuj hasło
+        thanks: Dziękujemy,
+        store_team: "Zespół %{store_name}"
+      confirmation_instructions:
+        welcome: "Witaj %{email}!"
+        instructions_1: "Dziękujemy za rejestrację w %{store_name}."
+        instructions_2: "Kliknij przycisk poniżej, aby potwierdzić rejestrację:"
+        instructions_3: Jeśli masz pytania, po prostu odpowiedz na ten email
+        button: Potwierdź adres email
+        thanks: Dziękujemy,
+        store_team: "Zespół %{store_name}"
     order_mailer:
       subtotal: łącznie za produkty
       total: Łącznie zapłacono
@@ -452,14 +485,18 @@ pl:
       delivery_method: Opcja wysyłki
     billing_address: Dane rozliczeniowe
     address_book:
+      save: Zapisz
+      new_shipping_address: Nowy adres wysyłki
       edit_shipping_address: Edytuj dane do wysyłki
       other_address: Inny Adres
+      successfully_created: Dodano pomyślnie
+      successfully_removed: Usunięto pomyślnie
       successfully_updated: Zaktualizowano pomyślnie
     pdp:
       checkout: Zamawiam i płacę
       view_cart: sprawdź Koszyk
     added_to_cart: Dodano do koszyka
-    add_new_address: Wpisz Nowy Adres
+    add_new_address: Dodaj nowy adres
     store_credit_name: Kredyt
     nav_bar:
       show_search: Show search
@@ -546,7 +583,7 @@ pl:
     adjustment_amount: Ilość
     adjustment_successfully_closed: Zamknięto poprawkę!
     adjustment_successfully_opened: Otwarto poprawkę!
-    adjustment_total: Poprawka razem
+    adjustment_total: Udzielone rabaty
     adjustments: Poprawki
     admin:
       tab:
@@ -599,6 +636,8 @@ pl:
     analytics_desc_list_4: Całkiem za darmo!
     analytics_trackers: "Śledzenie analizy"
     and: i
+    api:
+      resource_not_found: Nie znaleziono
     approve: Zatwierdź
     approved_at: Zatwierdzono
     approver: Zatwierdzający
@@ -696,6 +735,7 @@ pl:
     coupon_code: Kod kuponu
     coupon_code_already_applied: Do tego zamówienia wykorzystano już kod kuponu
     coupon_code_applied: Kod kuponu został zastosowany do Twojego zamówienia.
+    coupon_code_removed: Kod kuponu został usunięty z Twojego zamówienia.
     coupon_code_better_exists: Poprzednio zastosowany kod kuponu jest korzystniejszy
     coupon_code_expired: Kod kuponu wygasł
     coupon_code_max_usage: Przekroczono limit wykorzystania kodu kuponu
@@ -763,6 +803,7 @@ pl:
     display: Wyświetl
     display_currency: Wyświetl walutę
     doesnt_track_inventory: Przestań śledzić stany magazynowe
+    default_country_cannot_be_deleted: Nie można usunąć domyślnego kraju
     edit: Edycja
     editing_resource: Edycja zasobu
     editing_rma_reason:
@@ -1143,6 +1184,7 @@ pl:
         manual: Wybierz ręcznie
     products: Produkty
     promotion: Promocja
+    promotion_label: Kupon (%{name})
     promotion_action: Działanie promocyjne
     promotion_action_types:
       create_adjustment:
@@ -1320,7 +1362,7 @@ pl:
         track_link: 'Link do śledzenia przesyłki: %{url}'
     shipment_state: Stan wysyłki
     shipment_states:
-      backorder: cofnięcie zamówienia
+      backorder: zaległe zamówienie
       canceled: anulowane
       partial: częściowe
       pending: oczekujące
