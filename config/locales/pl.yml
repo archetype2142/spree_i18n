@@ -2,6 +2,8 @@ pl:
   activerecord:
     attributes:
       spree/address:
+        nip: NIP
+        company: Nazwa firmy 
         address1: Adres
         address2: Adres (cd.)
         city: Miasto
@@ -1456,7 +1458,7 @@ pl:
     store: Sklep
     street_address: Adres ulicy
     street_address_2: Adres ulicy (cd.)
-    subtotal: Suma netto zamówienia
+    subtotal: Suma brutto zamówienia
     subtract: Odejmij
     success:
     successfully_created: Utworzono %{resource}!
