@@ -1,4 +1,13 @@
+
 pl:
+  address_book:
+    save: Zapisz
+    new_shipping_address: Nowy adres wysyłki
+    edit_shipping_address: Edytuj dane do wysyłki
+    other_address: Inny Adres
+    successfully_created: Dodano pomyślnie
+    successfully_removed: Usunięto pomyślnie
+    successfully_updated: Zaktualizowano pomyślnie
   activerecord:
     attributes:
       spree/address:
@@ -669,7 +678,7 @@ pl:
     base_percent:
     bill_address: Adres do zapłaty
     billing: Zapłata
-    billing_address: Adres do zapłaty
+    billing_address: Adres rozliczeniowy
     both: Oba
     calculated_reimbursements: Wyliczony zwrot kosztów
     calculator: Kalkulator
