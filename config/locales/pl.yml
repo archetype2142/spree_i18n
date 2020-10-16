@@ -1517,7 +1517,7 @@ pl:
     tiers:
     time: Czas
     to_add_variants_you_must_first_define: Aby dodać odmiany musisz najpierw zdefiniować
-    total: Suma brutto zamówienia
+    total: Wartość brutto
     total_per_item:
     total_pre_tax_refund:
     total_price: Wartość
