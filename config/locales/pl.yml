@@ -1,4 +1,3 @@
-
 pl:
   address_book:
     save: Zapisz
@@ -166,6 +165,10 @@ pl:
         name: Nazwa
     errors:
       models:
+        spree/product:
+          attributes:
+            base:
+              cannot_destroy_if_attached_to_line_items: nie można usunąć produktu, który jest w koszyku lub został zamówiony
         spree/calculator/tiered_flat_rate:
           attributes:
             base:
@@ -1514,7 +1517,7 @@ pl:
     tiers:
     time: Czas
     to_add_variants_you_must_first_define: Aby dodać odmiany musisz najpierw zdefiniować
-    total: Suma brutto zamówienia
+    total: DO ZAPŁATY
     total_per_item:
     total_pre_tax_refund:
     total_price: Wartość
