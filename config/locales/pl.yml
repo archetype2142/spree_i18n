@@ -1470,7 +1470,7 @@ pl:
     store: Sklep
     street_address: Adres ulicy
     street_address_2: Adres ulicy (cd.)
-    subtotal: Suma brutto zamówienia
+    subtotal: DO ZAPŁATY
     subtract: Odejmij
     success:
     successfully_created: Utworzono %{resource}!
@@ -1517,7 +1517,7 @@ pl:
     tiers:
     time: Czas
     to_add_variants_you_must_first_define: Aby dodać odmiany musisz najpierw zdefiniować
-    total: DO ZAPŁATY
+    total: Suma brutto zamówienia
     total_per_item:
     total_pre_tax_refund:
     total_price: Wartość
