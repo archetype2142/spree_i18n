@@ -2,7 +2,7 @@ pl:
   address_book:
     save: Zapisz
     new_shipping_address: Nowy adres wysyłki
-    edit_shipping_address: Edytuj dane do wysyłki
+    edit_shipping_address: Edytuj dane
     other_address: Inny Adres
     successfully_created: Dodano pomyślnie
     successfully_removed: Usunięto pomyślnie
@@ -370,6 +370,7 @@ pl:
       signed_out: Wylogowano pomyślnie
   errors:
     messages:
+      email_is_invalid: Wpisany email jest niepoprawny, lub nie został w ogóle wprowadzony
       already_confirmed: już zostało potwierdzone
       not_found: nie znaleziono
       not_locked: nie zostało zablokowane
