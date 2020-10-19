@@ -387,6 +387,16 @@ pl:
         other: "%{count} błędy(-ów) uniemożliwiło zachowanie tego %{resource}:"
   checkout_allowed_errors:
   spree:
+    order_mailer:
+      subtotal: Wartość zamówionych produktów brutto
+      total: Razem zapłacono
+      confirm_email:
+        worker_instructions: Potwierdzenie zamówienia
+        instructions: Oto potwierdzenie zamówienia
+        dear_worker: Szanowni Państwo
+        dear_customer: Szanowny kliencie!
+        order_summary: Szczegóły
+        store_team: Sklep BHPartykuly.pl
     store_credit_category: Kategorie kredytów
     payment_method: Metoda płatności
     payment_methods: Metoda płatności
@@ -468,14 +478,15 @@ pl:
         thanks: Dziękujemy,
         store_team: "Zespół %{store_name}"
     order_mailer:
-      subtotal: łącznie za produkty
-      total: Łącznie zapłacono
+      subtotal: Wartość zamówionych produktów brutto
+      total: Razem zapłacono
       confirm_email:
         worker_instructions: Potwierdzenie zamówienia
         instructions: Oto potwierdzenie zamówienia
         dear_worker: Szanowni Państwo
         dear_customer: Szanowny kliencie!
         order_summary: Szczegóły
+        store_team: Sklep BHPartykuly.pl
     shipping_rates:
       display_price:
         including_tax: Zawiera podatek VAT
@@ -1096,11 +1107,11 @@ pl:
         subtotal:
         total:
       confirm_email:
-        dear_customer:
-        instructions:
-        order_summary:
-        subject: Temat
-        subtotal:
+        dear_customer: Szanowni Państwo
+        instructions: Oto potwierdzenie dokonanego zakupu
+        order_summary: Podsumowanie
+        subject: Zamówienie
+        subtotal: Wartość zamówionych produktów brutto
         thanks: Dziękujemy za zakupy.
         total:
     order_not_found: Nie mogliśmy odnaleźć Twojego zamówienia. Prosimy spróbować ponownie.
