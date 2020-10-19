@@ -387,6 +387,7 @@ pl:
         other: "%{count} błędy(-ów) uniemożliwiło zachowanie tego %{resource}:"
   checkout_allowed_errors:
   spree:
+    backordered: zaległe zamówienie
     order_mailer:
       subtotal: Wartość zamówionych produktów brutto
       total: Razem zapłacono
