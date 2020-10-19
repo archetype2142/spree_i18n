@@ -1099,13 +1099,14 @@ pl:
     order_email_resent: Wysłano ponownie e-mail z zamówieniem
     order_information: Informacja o zamówieniu
     order_mailer:
+      store_team: Sklep BHPartykuly.pl
       cancel_email:
         dear_customer: Szanowny Kliencie,\n
         instructions: Twoje zamówienie zostało anulowane. Zachowaj na wszelki wypadek tę infromację.
         order_summary_canceled: Podsumowanie zamówienia [ANULOWANO]
         subject: Anulowanie zamówienia
-        subtotal:
-        total:
+        subtotal: Wartość zamówionych produktów brutto
+        total: Razem zapłacono
       confirm_email:
         dear_customer: Szanowni Państwo
         instructions: Oto potwierdzenie dokonanego zakupu
@@ -1113,7 +1114,8 @@ pl:
         subject: Zamówienie
         subtotal: Wartość zamówionych produktów brutto
         thanks: Dziękujemy za zakupy.
-        total:
+        total: Razem zapłacono
+        store_team: Sklep BHPartykuly.pl
     order_not_found: Nie mogliśmy odnaleźć Twojego zamówienia. Prosimy spróbować ponownie.
     order_number: Numer zamówienia
     order_populator:
@@ -1492,6 +1494,7 @@ pl:
     successfully_updated: Uaktualniono %{resource}!
     summary: Podsumowanie
     tax: Podatek
+    included: Wliczony
     tax_categories: Kategorie podatkowe
     tax_category: Kategoria podatkowa
     tax_code: Kod podatkowy
