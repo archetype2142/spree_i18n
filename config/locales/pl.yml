@@ -1502,7 +1502,7 @@ pl:
     tax_included: Wartość podatku VAT
     tax_rate_amount_explanation: By ułatwić wyliczenia stawki podatku podane są w notacji dziesiętnej (np. jeśli stawka wynosi 5% wprowadź 0.05)
     tax_rates: Stawki podatku
-    taxon: Podkategoria
+    taxon: Subkategoria
     taxon_edit: Edycja podkategorii
     taxon_placeholder: Dodaj podkategorię
     taxon_rule:
