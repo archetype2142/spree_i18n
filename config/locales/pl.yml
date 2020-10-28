@@ -255,7 +255,7 @@ pl:
         one: Kategoria promocji
         other: Kategorie promocji
       spree/property:
-        one: Własność
+        one: Właściwość
         other: Własności
       spree/prototype:
         one: Prototyp
@@ -1031,7 +1031,7 @@ pl:
     new_product: Nowy produkt
     new_promotion: Nowa promocja
     new_promotion_category:
-    new_property: Nowa własność
+    new_property: Nowa właściwość
     new_prototype: Nowy prototyp
     new_refund:
     new_return_authorization: Nowa autoryzacja powrotna
@@ -1269,7 +1269,7 @@ pl:
     promotions: Promocje
     propagate_all_variants:
     properties: Właściwości
-    property: Własność
+    property: Właściwość
     prototype: Prototyp
     prototypes: Prototypy
     provider: Dostawca
