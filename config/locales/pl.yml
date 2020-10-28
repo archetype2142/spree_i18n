@@ -309,8 +309,8 @@ pl:
         one: Stawka podatku
         other: Stawki podatku
       spree/taxon:
-        one: Podkategoria
-        other: Podkategorie
+        one: Subkategoria
+        other: Subkategorie
       spree/taxonomy:
         one: Kategoria
         other: Kategorie
