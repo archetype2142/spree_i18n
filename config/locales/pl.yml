@@ -894,7 +894,7 @@ pl:
     filter_results: Wyniki filtra
     finalize: Zakończ
     finalized:
-    find_a_taxon: Znajdź podkategorię
+    find_a_taxon: Znajdź subkategorie
     first_item: Koszt pierwszej sztuki
     first_name: Imię
     first_name_begins_with: Imię zaczyna się na
