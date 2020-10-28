@@ -625,7 +625,7 @@ pl:
         prototypes: Prototypy
         reports: Raporty
         taxonomies: Kategorie
-        taxons: Podkategorie
+        taxons: subkategorie
         users: Użytkownicy
         return_authorizations: Autoryzacje zwrotów
         customer_returns: Zwroty od klientów
@@ -1515,7 +1515,7 @@ pl:
     taxonomy_edit: Edycja kategorii
     taxonomy_tree_error: "Żądana zmiana nie została zaakceptowana i drzewo wróciło do poprzedniego stanu, spróbuj ponownie."
     taxonomy_tree_instruction: "* Menu dla dodawania, usuwania lub sortowania dziecka dostępne jest pod prawym przyciskiem myszy."
-    taxons: Podkategorie
+    taxons: subkategorie
     test: Test
     test_mailer:
       test_email:
