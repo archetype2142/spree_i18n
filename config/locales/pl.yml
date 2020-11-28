@@ -502,6 +502,8 @@ pl:
     adjustment_labels:
       tax_rates:
         including_tax: Podatek VAT
+        excluding_tax: Podatek VAT
+
     availability: Dostępność
     in_stock: W magazynie
     tos: Regulamin
