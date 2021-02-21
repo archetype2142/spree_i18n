@@ -397,7 +397,6 @@ pl:
         dear_worker: Szanowni Państwo
         dear_customer: Szanowny kliencie!
         order_summary: Szczegóły
-        store_team: Sklep BHPartykuly.pl
     store_credit_category: Kategorie kredytów
     payment_method: Metoda płatności
     payment_methods: Metoda płatności
@@ -487,7 +486,6 @@ pl:
         dear_worker: Szanowni Państwo
         dear_customer: Szanowny kliencie!
         order_summary: Szczegóły
-        store_team: Sklep BHPartykuly.pl
     shipping_rates:
       display_price:
         including_tax: Zawiera podatek VAT
@@ -1102,7 +1100,6 @@ pl:
     order_email_resent: Wysłano ponownie e-mail z zamówieniem
     order_information: Informacja o zamówieniu
     order_mailer:
-      store_team: Sklep BHPartykuly.pl
       cancel_email:
         dear_customer: Szanowny Kliencie,\n
         instructions: Twoje zamówienie zostało anulowane. Zachowaj na wszelki wypadek tę infromację.
@@ -1118,7 +1115,6 @@ pl:
         subtotal: Wartość zamówionych produktów brutto
         thanks: Dziękujemy za zakupy.
         total: Razem zapłacono
-        store_team: Sklep BHPartykuly.pl
     order_not_found: Nie mogliśmy odnaleźć Twojego zamówienia. Prosimy spróbować ponownie.
     order_number: Numer zamówienia
     order_populator:
