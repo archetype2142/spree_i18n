@@ -499,8 +499,8 @@ pl:
       success: Zamówienie przyjęte, sprawdź potwierdzenie platności w swojej skrzynce e-mail.
     adjustment_labels:
       tax_rates:
-        including_tax: Podatek VAT
-        excluding_tax: Podatek VAT
+        including_tax: Wliczony VAT
+        excluding_tax: Wliczony VAT
 
     availability: Dostępność
     in_stock: W magazynie
