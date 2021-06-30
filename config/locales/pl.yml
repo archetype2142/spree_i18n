@@ -488,7 +488,7 @@ pl:
         order_summary: Szczegóły
     shipping_rates:
       display_price:
-        including_tax: Zawiera podatek VAT
+        including_tax: "%{price} (incl. %{tax_amount} %{tax_rate_name})"
     address_action_popup:
       delete_button: Usuń
       delete_title: Zmień dane
